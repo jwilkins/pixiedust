@@ -1,0 +1,35 @@
+== 0.0.11 / 2008-09-29
+* Added UrlDust.url_like?
+
+== 0.0.10 / 2008-09-07
+* Re-release due to upload error
+
+== 0.0.9 / 2008-09-05
+* Added ActiveRecord.each
+
+== 0.0.8 / 2008-05-25
+* Added HashDust.md5_file
+
+== 0.0.7 / 2008-05-16
+* Removed a debug routine that was writing to 'pixiedust-attempts.txt'
+
+== 0.0.6 / 2008-05-16
+* Sped up RandomDust some more, using bit masks for 8 and 16 bit values
+
+== 0.0.5 / 2008-05-14
+* Sped up RandomDust, no longer raising errors and catching, 2x faster
+* Added
+  * DateDust.now_stru() - Date string like 200805141711 (with usec)
+  * Object.try() - from Chris Wanstrath http://ozmm.org/posts/try.html
+
+== 0.0.4 / 2008-02-28
+* Restructured for Hoe
+
+== 0.0.3 / 2008-02-27
+
+* Initial release
+  * RandomDust.between(min, max) - Unskewed number between min and max
+  * NumberDust.nearest() - Number nearest order of magnitude 
+    (9==9, 10000002351 = 10000000000)
+  * DateDust.now_str() - Date string like 200805141711
+

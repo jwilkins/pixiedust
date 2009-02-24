@@ -1,0 +1,40 @@
+8
+
+dir
+476
+svn+ssh://bitland.net/svn/pixiedust/lib
+svn+ssh://bitland.net/svn
+
+
+
+2008-05-26T02:32:24.271975Z
+458
+jwilkins
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+edffbb04-d93b-0410-922d-bb7341c0c98d
+
+pixiedust.rb
+file
+552
+
+
+
+2008-09-08T06:35:42.000000Z
+bbecf38000ef93dd3c4b328c88d146c5
+2008-09-08T19:06:43.590245Z
+552
+jwilkins
+
